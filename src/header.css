@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.App-header{
+    margin-top: 10px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.App-logo {
+    height: 60px;
+    pointer-events: none;
+}
+
+.flag-div{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 60%;
+}
+
+.Flag{
+    height: inherit;
+    width: inherit;
+    border-radius: inherit;
+}

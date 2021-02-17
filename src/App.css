@@ -1,0 +1,95 @@
+.App-container{
+  display: flex;
+  max-width: 800px;
+  margin: auto;
+}
+
+.Title{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.Menu{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 50px;
+
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.Menu img {
+  height: 150px;
+  width: 150px;
+}
+
+.Menu h1{
+  width: 150px;
+}
+
+.Menu:hover{
+  background-color: red;
+  border-radius: 30px;
+  /* cursor: pointer; */
+}
+
+.Menu-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.Product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  
+}
+
+.Product img {
+  height: 150px;
+  width: 150px;
+}
+
+.Product h1{
+  width: 150px;
+}
+
+.Product:hover{
+  background-color: red;
+  border-radius: 30px;
+  /* cursor: pointer; */
+}
+
+.Product-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.TableMenu{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.TabMenu{
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.TableProduct{
+  display: flex;
+  flex-wrap: wrap;
+}
